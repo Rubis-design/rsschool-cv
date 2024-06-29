@@ -48,3 +48,22 @@ const getMenCountByYear = (users) => users
 export default getMenCountByYear;
 ```
 
+# Education
+
+* St. Petersburg State Transport University, 2009, Сomprehensive information security of automated systems 
+* At present: RSSchool, JS/FE Pre-School 2024Q2
+
+# Experiens
+
+* former founder and leader Rubis Nail Salon
+* International instructor and judge of nail technologies
+* 3 years of experience in the company OJSC "Russian Railways" as a leading engineer for working with technical and administrative documentation
+
+# Languages
+
+* Russian
+
+# English
+
+* Pre-Intermediate
+
