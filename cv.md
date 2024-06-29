@@ -12,7 +12,7 @@
 * CodePen: Rubis-design
 
 
-#Summary  
+# Summary  
 
 Now I work as a web designer and layout designer on no-code platforms as a freelancer.
 I have a higher computer education in the field of information security. But I didn’t work in my specialty for a long time.
@@ -21,7 +21,7 @@ Now I'm studying front-end development, updating my knowledge acquired at the un
 My main strengths are perseverance, problem solving and quick learning. I want to gain knowledge and skills that will be sufficient for employment in the company.
 
 
-#Skills
+# Skills
 
 * Basic HTML
 * Basic CSS
@@ -30,7 +30,7 @@ My main strengths are perseverance, problem solving and quick learning. I want t
 * other graphics editor app (photoshop, illustration)
 
 
-#Code example
+# Code example
 ```
 import _ from 'lodash';
 
