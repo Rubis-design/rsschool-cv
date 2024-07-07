@@ -3,8 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <nav class="menu">
+                <ul class="ul-link">
+                    <li class="menu-item"><a href="#about" class="menu-link">About</a></li>
+                    <li class="menu-item"><a href="#skills" class="menu-link">Skills</a></li>
+                    <li class="menu-item"><a href="#education" class="menu-link">Education</a></li>
+                    <li class="menu-item"><a href="#experience" class="menu-link">Experience</a></li>
+                    <li class="menu-item"><a href="#langueges" class="menu-link">Languages</a></li>
+                    <li class="menu-item"><a href="#contact" class="menu-link">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="two-colums">
+                <div class="left-colums">
+                    <div class="img-wrapper">
+                        <img class="avatar" src="assets/img/image.jpg" alt="photo">
+                    </div>
+                </div>
+                <div class="right-colums">
+                    <h1 class="main-title" id="about">Irina Rubis</h1>
+                    <div class="line"></div>
+                    <div class="title-cv">
+                        <h3>Web designer</h3>
+                        <p class="separators">/</p>
+                        <h3>No-code web developer</h3>
+                        <p class="separators">/</p>
+                        <h3>Futere Front-end developer</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="about-myself">
+                        <p>Now I work as a web designer and layout designer on no-code platforms as a freelancer.</p>
+                        <p>I have a higher computer education in the field of information security. But I didn’t work in my specialty for&nbsp;a&nbsp;long time.</p>
+                        <p>I really love to learn and achieve high results in my niche.</p>
+                        <p>In my past professional activities, I have repeatedly achieved international awards and statuses. </p>
+                        <p>Now I'm studying front-end development, updating my knowledge acquired at the university and studying new modern tools in development My main strengths are perseverance, problem solving and quick learning. I want to gain knowledge and skills that will be sufficient for employment in the company.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="two-colums">
+                <div class="left-colums-second">
+                    <div class="skills" id="skills">
+                        <h2>Skills</h2>
+                        <ul class="ul-skills">
+                            <li class="li-skill">Basic HTML</li>
+                            <li class="li-skill">Basic CSS</li>
+                            <li class="li-skill">Basic JS</li>
+                            <li class="li-skill">Figma</li>
+                            <li class="li-skill">other graphics editor app (photoshop, illustration)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-colums-second">
+                    <div class="education" id="education">
+                        <h2>Education</h2>
+                        <ul class="ul-education">
+                            <li class="li-education">St. Petersburg State Transport University, 2009, <br>Сomprehensive information security of automated systems</li>
+                            <li class="li-education">At present: RSSchool, JS/FE Pre-School 2024Q2</li>
+                            <li class="li-education">other graphics editor app (photoshop, illustration)</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="two-colums">
+                <div class="code-example">
+                    <h2 class="dark-title">Code Example</h2>
+                    <pre>
+<code>import _ from 'lodash';
+
+const getMenCountByYear = (users) => users
+  .filter((user) => user.gender === 'male')
+  .map((user) => {
+    const year = [];
+    year.push(user.birthday.slice(0, 4));
+    return year;
+  })
+  .reduce((acc, year) => {
+    const count = _.get(acc, year, 0) + 1;
+    return { ...acc, [year]: count };
+  }, {});
+
+export default getMenCountByYear;
+</code>
+                    </pre>
+                </div>
+                <div class="experiens" id="experience">
+                    <h2>Experiens</h2>
+                    <ul class="ul-experiens">
+                        <li class="li-experiens">3 years of experience in the company OJSC "Russian Railways" as a leading engineer for working with technical and administrative documentation</li>
+                        <li class="li-experiens">former founder and leader Rubis Nail Salon</li>
+                        <li class="li-experiens">International instructor and judge of nail technologies</li>
+                        <li class="li-experiens">4 years as a freelancer web designer and progect designer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="two-colums">
+                <div class="left-colums-third">
+                    <div class="contacts" id="contact">
+                        <h2>Contacts</h2>
+                        <div class="contact-colums">
+                            <div class="contact-left-colomn">
+                                <ul class="ul-contacts">
+                                    <li class="contact-item"><img class="contacts-icon" src="assets/img/location.svg" alt="icon-location"><p>Saint-Peterburg, Russia</p></li>
+                                    <li class="contact-item"><a class="contact-link" href="https://github.com/Rubis-design"><img class="contacts-icon" src="assets/img/github-white.svg" alt="icon-location"><p>https://github.com/Rubis-design</p></a></li>
+                                    <li class="contact-item"><a class="contact-link" href="mailto:rubis.smm@gmail.com"><img class="contacts-icon" src="assets/img/email.svg" alt="icon-location"><p>rubis.smm@gmail.com</p></a></li>
+                                </ul>
+                            </div>
+                            <div class="contact-right-colomn">
+                                <ul class="ul-contacts">
+                                    <li class="contact-item"><a class="contact-link" href="tel:+79602834033"><img class="contacts-icon" src="assets/img/phone.svg" alt="icon-location"><p>+7 (960) 283-40-33</p></a></li>
+                                    <li class="contact-item"><a class="contact-link" href="https://t.me/Rubis_design"><img class="contacts-icon" src="assets/img/telegram.svg" alt="icon-location"><p>Rubis_design</p></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-colums-third">
+                    <div class="languages" id="langueges">
+                        <h2>Languages</h2>
+                        <ul class="ul-langueges">
+                            <li class="li-langueges">Russian (native)</li>
+                            <li class="li-langueges">English (Pre-Intermediate)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-wrap">
+                <a class="myGitHub" href="https://github.com/Rubis-design">
+                    <img class="logo-git" src="assets/img/github.svg" alt="GitHub logo" height="26">
+                    <p>My GitHub</p>
+                </a>
+                <p class="dark-title">© 2024</p>
+                <a href="https://rs.school/courses/javascript-ru">
+                    <img src="assets/img/rslogo.svg" alt="rs-school logo" width="73" height="26">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
