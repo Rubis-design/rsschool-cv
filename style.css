@@ -54,7 +54,7 @@ header {
    margin: 0 15px;
 }
 
-.menu-link {
+.menu-link, .myGitHub {
     text-decoration: none;
     font-size: 12px;
     text-transform: uppercase;
@@ -67,20 +67,16 @@ header {
     text-decoration: underline;
 }
 
-main {
-    //max-width: 900px;
-    margin: 10px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.main-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #3FC1C9;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
-h1 {
- font-size: 40px;
- font-weight: 600;
- color: #3FC1C9;
- margin: 20px 0;
+.about-myself {
+    margin-top: 20px;
 }
 
 h2 {
@@ -97,10 +93,20 @@ h3 {
 }
 
 p {
-    line-height: 135%;
+    line-height: 145%;
+    margin: 6px 0px;
+}
+
+pre {
+    margin: 0px;
+}
+
+.separators {
+    margin: auto 0px;
 }
 
 .two-colums {
+    padding: 10px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -108,32 +114,39 @@ p {
 }
 
 .left-colums {
-    width: 40%;
+    width: 30%;
     vertical-align: baseline;
+    margin-right: 20px;
 }
 .title-cv {
-  padding: 20px;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.img-wrapper {
+    width: 100%;
 }
 
 .avatar {
     border-radius: 20px;
-    width: 100%;
+    display: block;
+    width: auto;
 }
 
 .contacts {
-    text-align: center;
-    background-color: #364F6B;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 20px;
     color: white;
 }
 
 
 .right-colums {
-    width: 60%;
-    padding: 20px 60px;
+    width: 70%;
+    padding: 20px 40px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .line {
@@ -142,9 +155,35 @@ p {
     background-color: #3FC1C9;
 }
 
+.contact-colums {
+    display: flex;
+    flex-direction: row;
+    //flex-wrap: nowrap;
+    //align-items: center;
+    gap: 10px;
+}
+
+.contact-link {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.contact-right-colomn {
+    margin-left: 60px;
+}
+
 .ul-contacts {
     list-style: none;
     text-align: left;
+    padding-left: 0px;
+    margin-top: 0px;
 }
 
 .contacts-icon {
@@ -156,6 +195,7 @@ p {
 }
 
 .contact-item {
+    padding: 2px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -164,5 +204,96 @@ p {
 
 }
 
+.left-colums-second {
+    width: 40%;
+    background-color: #364F6B;
+    padding: 20px 40px;
+    //margin-left: 20px;
+    border-radius: 20px;
+}
+
+.right-colums-second {
+    width: 60%;
+    background-color: #3FC1C9;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 20px 40px;
+}
+
+.left-colums-third {
+    width: 60%;
+    background-color: #364F6B;
+    padding: 20px 40px;
+    //margin-left: 20px;
+    border-radius: 20px;
+}
+
+.right-colums-third {
+    width: 40%;
+    background-color: #3FC1C9;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 20px 40px;
+}
+
+.ul-skills, .ul-education, .ul-experiens, .ul-langueges {
+    color: white;
+    padding-left: 20px;
+}
+
+.li-skill, .li-education, .li-experiens, .li-langueges {
+    margin: 6px 0px;
+}
 
 
+
+.code-example {
+    width: 50%;
+    padding: 20px 40px;
+    //margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experiens {
+    width: 50%;
+    background-color: #364F6B;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin-left: 20px;
+}
+.dark-title  {
+    color: #364F6B;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.myGitHub {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #364F6B;
+    backgroung-color: none;
+}
+
+.myGitHub:hover {
+    text-decoration: underline;
+}
+
+.logo-git {
+    margin-right: 10px;
+}
